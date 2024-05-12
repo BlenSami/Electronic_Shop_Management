@@ -1,0 +1,121 @@
+/* Reset some default styles for consistency */
+body,
+h1,
+p,
+form,
+label,
+input {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply some basic styling to the body */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(244, 240, 244);
+  margin-top: 80px; /* Add some margin to the top of the body to avoid overlapping with the header */
+}
+
+/* Style the login form */
+form {
+  width: 400px;
+  margin: 50px auto;
+  background-color: rgb(250, 248, 250); /* Changed background color */
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adjusted box shadow */
+  border: 2px solid blueviolet; /* Adjusted border */
+}
+
+/* Style form headings */
+h1 {
+  text-align: center;
+  color: black;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+/* Style form labels */
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: black;
+}
+
+/* Style form inputs */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid wheat;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+/* Style form buttons */
+input[type="submit"] {
+  background-color: rgb(247, 246, 247);
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: blueviolet;
+}
+
+/* Style form links */
+a {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+/* Style error messages */
+.error {
+  color: red;
+}
+
+/* add employee css  */
+/* Style form inputs */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid wheat;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+/* Style radio buttons */
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+/***************
+* task page css *
+****************/
+.task-container {
+  width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.task-item {
+  border: 1px solid #3333;
+  padding: 30px;
+  border-radius: 20px;
+}

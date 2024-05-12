@@ -1,0 +1,68 @@
+/* Reset some default styles for consistency */
+body, h1, p, form, label, input {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply some basic styling to the body */
+  body {
+    font-family: Arial, sans-serif; 
+    background-color: #f0f0f0; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the heading */
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  /* Style the container */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ccc; /* Add border with color */
+    border-radius: 8px; /* Optional: Add border radius */
+  }
+  
+  /* Style the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style the delete and update buttons */
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Center align the "Go back" link */
+  p a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+  

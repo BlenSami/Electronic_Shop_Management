@@ -1,0 +1,75 @@
+/* Reset some default styles for consistency */
+body, h1, p, form, label, input {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply some basic styling to the body */
+body {
+  font-family: 'Roboto', sans-serif; 
+  background-color: whitesmoke; 
+  margin-top: 80px; 
+}
+
+/* Style the login form */
+form {
+  width: 400px; 
+  margin: 50px auto; 
+  background-color: lightgray; 
+  padding: 40px; 
+  border-radius: 12px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  border: 2px solid blueviolet; 
+}
+
+/* Style form headings */
+h1 {
+  text-align: center;
+  color: black;
+  margin-bottom: 30px; 
+  font-size: 28px; 
+}
+
+/* Style form labels */
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: black;
+}
+
+/* Style form inputs */
+input[type="text"],
+input[type="password"] {
+  width: 100%; 
+  padding: 12px; 
+  margin-bottom: 20px;
+  border: 1px solid wheat;
+  border-radius: 6px; 
+  box-sizing: border-box;
+}
+
+/* Style form buttons */
+input[type="submit"] {
+  background-color: blueviolet; 
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%; 
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: blueviolet; 
+}
+
+/* Style form links */
+a {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

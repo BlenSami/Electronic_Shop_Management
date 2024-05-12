@@ -1,0 +1,77 @@
+/* Reset some default styles for consistency */
+body,
+h1,
+header {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply some basic styling to the body */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: white; 
+}
+
+/* Style the header */
+header {
+  text-align: center;
+  padding: 30px;
+  background-color: green; 
+  color: white; 
+}
+
+/* Style the header h1 tag */
+header h1 {
+  margin: 0;
+  font-size: 42px; 
+  font-weight: bold; 
+}
+
+body {
+  margin-top: 80px; 
+}
+
+nav {
+  text-align: center;
+  background-color: black; 
+  padding: 15px 0; 
+}
+
+nav a {
+  color: white; 
+  text-decoration: none;
+  padding: 10px 20px; 
+  margin: 0 10px; 
+  font-size: 18px;
+  font-weight: bold; 
+}
+
+nav a:hover {
+  background-color: black; 
+}
+
+.container {
+  width: 90%; 
+  margin: 0 auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 12px; 
+  box-shadow: 0 0 15px ; 
+}
+
+/* Additional styling for the header */
+header {
+  position: fixed; 
+  width: 100%;
+  top: 0;
+  z-index: 1000; 
+}
+
+header nav {
+  display: inline-block; 
+}
+
+header nav a {
+  margin: 0 15px; 
+  font-weight: bold; 
+}

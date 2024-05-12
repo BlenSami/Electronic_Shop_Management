@@ -1,0 +1,57 @@
+/* Reset some default styles for consistency */
+body, footer, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply some basic styling to the body */
+body {
+  font-family: 'Roboto', sans-serif; 
+  background-color: white; 
+}
+
+/* Style the footer */
+footer {
+  text-align: center;
+  padding: 30px; 
+  background-color: black; 
+  color: whitesmoke; 
+}
+
+/* Style the footer p tag */
+footer p {
+  margin-bottom: 15px; 
+}
+
+/* Style the footer ul tag */
+footer ul {
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+
+/* Style the footer li tag */
+footer li {
+  display: inline;
+  margin-right: 15px; 
+}
+
+/* Add some margin to the bottom of the body to avoid overlapping with the footer */
+body {
+  margin-bottom: 80px;
+}
+
+/* Additional styling for the footer */
+footer {
+  border-top: 3px solid whitesmoke; 
+}
+
+/* Enhance the appearance of footer links */
+footer a {
+  color: whitesmoke; 
+  text-decoration: underline; 
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: orange; 
+}
